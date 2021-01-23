@@ -17,12 +17,18 @@
     "github": "esy/pesy-reason-template"
   },
   "buildDirs": {
-    "library": {},
+    "library": {
+      "imports": [
+        "FlowParser = require('@opam/flow_parser')"
+      ],
+      "flags": "-opaque"
+    },
     "bin": {
       "imports": [
         "Library = require('js-pretty-printer/library')"
       ],
-     "bin": {
+      "flags": "-opaque",
+      "bin": {
         "JsPrettyPrinterApp": "JsPrettyPrinterApp.re"
       }
     }

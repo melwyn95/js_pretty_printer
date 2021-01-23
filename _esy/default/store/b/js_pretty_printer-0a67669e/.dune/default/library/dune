@@ -1,2 +1,11 @@
 (library (name JsPrettyPrinterLibrary)
-    (public_name js-pretty-printer.library) (modules (:standard)))
+    (public_name js-pretty-printer.library)
+    (modules (:standard \ JsPrettyPrinterLibraryPesyModules))
+    (libraries js-pretty-printer.library.pesy-modules)
+    (flags -opaque -open JsPrettyPrinterLibraryPesyModules))
+(library (public_name js-pretty-printer.library.pesy-modules)
+    (name JsPrettyPrinterLibraryPesyModules)
+    (modules JsPrettyPrinterLibraryPesyModules) (libraries flow_parser))
+(rule
+    (with-stdout-to JsPrettyPrinterLibraryPesyModules.re
+        (run echo "module FlowParser = Parser_flow;")))

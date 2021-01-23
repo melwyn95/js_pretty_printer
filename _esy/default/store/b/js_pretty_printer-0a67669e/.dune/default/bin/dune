@@ -2,7 +2,7 @@
     (modules (:standard \ JsPrettyPrinterBinPesyModules))
     (public_names JsPrettyPrinterApp)
     (libraries js-pretty-printer.bin.pesy-modules)
-    (flags -open JsPrettyPrinterBinPesyModules))
+    (flags -opaque -open JsPrettyPrinterBinPesyModules))
 (library (public_name js-pretty-printer.bin.pesy-modules)
     (name JsPrettyPrinterBinPesyModules)
     (modules JsPrettyPrinterBinPesyModules)
