@@ -1,0 +1,2 @@
+(** @canonical JsPrettyPrinterLibrary.Util *)
+module Util = JsPrettyPrinterLibrary__Util

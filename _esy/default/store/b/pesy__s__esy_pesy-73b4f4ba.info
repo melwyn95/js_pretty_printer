@@ -1,0 +1,32 @@
+{
+  "idInfo": {
+    "packageId": "@pesy/esy-pesy@link:/Users/melwyns/oss/pesy",
+    "build": {
+      "name": "@pesy/esy-pesy",
+      "version": "0.1.0-dev.14",
+      "mode": "build",
+      "buildType": "_build",
+      "buildCommands": ["dune build -p pesy--esy-pesy"],
+      "installCommands": ["esy-installer pesy--esy-pesy.install"],
+      "patches": [],
+      "substs": [],
+      "exportedEnv": {},
+      "buildEnv": {"ODOC_SYNTAX": "re"}
+    },
+    "platform": "darwin",
+    "arch": "x86_64",
+    "sandboxEnv": {},
+    "dependencies": [
+      "esy_ocaml__s__reason-3.6.2-767ed294",
+      "ocaml-4.6.1003-080693f6",
+      "opam__s__cmdliner-opam__c__1.0.4-8d96c95d",
+      "opam__s__dune-opam__c__2.7.0-890096cf",
+      "opam__s__ocamlfind-opam__c__1.8.1-399c7bc5",
+      "opam__s__sexplib-opam__c__v0.10.0-94d9cdbe",
+      "opam__s__yojson-opam__c__1.7.0-5900dd11",
+      "reason_native__s__pastel-0.3.0-976ba58f"
+    ]
+  },
+  "timeSpent": 1.27528,
+  "sourceModTime": "1611363847.35483098"
+}

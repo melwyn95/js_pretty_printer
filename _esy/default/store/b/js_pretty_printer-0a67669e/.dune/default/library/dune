@@ -1,0 +1,2 @@
+(library (name JsPrettyPrinterLibrary)
+    (public_name js-pretty-printer.library) (modules (:standard)))

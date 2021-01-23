@@ -1,0 +1,268 @@
+# dune build -p js-pretty-printer
+# OCAMLPARAM: unset
+# Workspace root: /Users/melwyns/oss/js_pretty_printer
+$ /usr/bin/getconf _NPROCESSORS_ONLN > /tmp/dunef0ad23.output 2> /dev/null
+# Auto-detected concurrency: 8
+# disable binary cache
+$ /Users/melwyns/.esy/3_________________________________________________________________/i/ocaml-4.6.1003-080693f6/bin/ocamlc.opt -config > /tmp/dunebbbbb6.output
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Release
+#  ; merlin = true
+#  ; for_host = None
+#  ; fdo_target_exe = None
+#  ; build_dir = "default"
+#  ; toplevel_path =
+#      Some
+#        External
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/ocaml-4.6.1003-080693f6/lib/ocaml"
+#  ; ocaml_bin =
+#      External
+#        "/Users/melwyns/.esy/3_________________________________________________________________/i/ocaml-4.6.1003-080693f6/bin"
+#  ; ocaml =
+#      Ok
+#        External
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/ocaml-4.6.1003-080693f6/bin/ocaml"
+#  ; ocamlc =
+#      External
+#        "/Users/melwyns/.esy/3_________________________________________________________________/i/ocaml-4.6.1003-080693f6/bin/ocamlc.opt"
+#  ; ocamlopt =
+#      Ok
+#        External
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/ocaml-4.6.1003-080693f6/bin/ocamlopt.opt"
+#  ; ocamldep =
+#      Ok
+#        External
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/ocaml-4.6.1003-080693f6/bin/ocamldep.opt"
+#  ; ocamlmklib =
+#      Ok
+#        External
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/ocaml-4.6.1003-080693f6/bin/ocamlmklib.opt"
+#  ; env =
+#      map
+#        { "INSIDE_DUNE" :
+#            "/Users/melwyns/oss/js_pretty_printer/_esy/default/store/b/js_pretty_printer-0a67669e/default"
+#        ; "MANPATH" :
+#            "/Users/melwyns/oss/js_pretty_printer//Users/melwyns/oss/js_pretty_printer/_esy/default/store/b/js_pretty_printer-0a67669e/install/default/bin"
+#        ; "OCAMLFIND_IGNORE_DUPS_IN" :
+#            "/Users/melwyns/oss/js_pretty_printer//Users/melwyns/oss/js_pretty_printer/_esy/default/store/b/js_pretty_printer-0a67669e/install/default/lib"
+#        ; "OCAMLTOP_INCLUDE_PATH" :
+#            "/Users/melwyns/oss/js_pretty_printer//Users/melwyns/oss/js_pretty_printer/_esy/default/store/b/js_pretty_printer-0a67669e/install/default/lib/toplevel"
+#        ; "OCAML_COLOR" : "always"
+#        ; "OPAMCOLOR" : "always"
+#        }
+#  ; findlib_path =
+#      [ External
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/esy_ocaml__s__reason-3.6.2-767ed294/lib"
+#      ; External
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/opam__s__dune-opam__c__2.7.0-890096cf/lib"
+#      ; External
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/opam__s__flow__parser-opam__c__0.80.0-718658aa/lib"
+#      ; External
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/opam__s__merlin-opam__c__3.4.2-e249a6fa/lib"
+#      ; External
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/opam__s__ocaml_lsp_server-ae8501a9/lib"
+#      ; External
+#          "/Users/melwyns/oss/js_pretty_printer/_esy/default/store/i/pesy__s__esy_pesy-73b4f4ba/lib"
+#      ; External
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/ocaml-4.6.1003-080693f6/lib"
+#      ; External
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/refmterr-3.3.2-ce98f127/lib"
+#      ; External
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/opam__s__fix-opam__c__20201120-caa70849/lib"
+#      ; External
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/opam__s__menhir-opam__c__20201216-caebd660/lib"
+#      ; External
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/opam__s__merlin_extend-opam__c__0.6-5c7ae2b9/lib"
+#      ; External
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/opam__s__ocamlfind-opam__c__1.8.1-399c7bc5/lib"
+#      ; External
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/opam__s__ppx__derivers-opam__c__1.2.1-7f4fecf3/lib"
+#      ; External
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/opam__s__result-opam__c__1.5-9af57e67/lib"
+#      ; External
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/esy_ocaml__s__substs-0.0.1-dcea4195/lib"
+#      ; External
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/opam__s__base_threads-opam__c__base-beddf47d/lib"
+#      ; External
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/opam__s__base_unix-opam__c__base-b5812a5c/lib"
+#      ; External
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/opam__s__ocamlfind_secondary-opam__c__1.8.1-281014a2/lib"
+#      ; External
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/opam__s__dtoa-opam__c__0.3.2-27eafb31/lib"
+#      ; External
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/opam__s__ocamlbuild-opam__c__0.14.0-945736a8/lib"
+#      ; External
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/opam__s__ppx__deriving-opam__c__4.5-076f7337/lib"
+#      ; External
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/opam__s__ppx__gen__rec-opam__c__1.1.0-9792a200/lib"
+#      ; External
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/opam__s__ppx__tools__versioned-opam__c__5.2-42c76d47/lib"
+#      ; External
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/opam__s__sedlex-opam__c__1.99.4-8f32bb2e/lib"
+#      ; External
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/opam__s__wtf8-opam__c__1.0.2-bda2f72c/lib"
+#      ; External
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/opam__s__csexp-opam__c__1.3.2-4d096b39/lib"
+#      ; External
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/opam__s__dot_merlin_reader-opam__c__3.4.2-599da1e4/lib"
+#      ; External
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/opam__s__yojson-opam__c__1.7.0-5900dd11/lib"
+#      ; External
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/opam__s__dune_build_info-opam__c__2.7.1-af365eed/lib"
+#      ; External
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/opam__s__ppx__yojson__conv__lib-opam__c__v0.14.0-9205a605/lib"
+#      ; External
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/opam__s__stdlib_shims-opam__c__0.1.0-b8189f47/lib"
+#      ; External
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/opam__s__cmdliner-opam__c__1.0.4-8d96c95d/lib"
+#      ; External
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/opam__s__sexplib-opam__c__v0.10.0-94d9cdbe/lib"
+#      ; External
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/reason_native__s__pastel-0.3.0-976ba58f/lib"
+#      ; External
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/opam__s__atdgen-opam__c__2.2.1-4929a91f/lib"
+#      ; External
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/opam__s__re-opam__c__1.9.0-02ed82f9/lib"
+#      ; External
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/reason_native__s__console-0.1.0-17fdd1fd/lib"
+#      ; External
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/opam__s__menhirlib-opam__c__20201216-6851aa34/lib"
+#      ; External
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/opam__s__menhirsdk-opam__c__20201216-4df9f061/lib"
+#      ; External
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/opam__s__cppo-opam__c__1.6.7-16e6d9b4/lib"
+#      ; External
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/opam__s__conf_m4-opam__c__1-d2b720aa/lib"
+#      ; External
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/opam__s__ocaml_secondary_compiler-opam__c__4.08.1-1-d40358be/lib"
+#      ; External
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/opam__s__ocaml_migrate_parsetree-opam__c__1.2.0-99f5e1d7/lib"
+#      ; External
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/opam__s__ppx__tools-opam__c__5.1+4.06.0-a70f7944/lib"
+#      ; External
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/opam__s__ppxfind-opam__c__1.3-0678a723/lib"
+#      ; External
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/opam__s__jbuilder-opam__c__1.0+beta20.2-19ec4653/lib"
+#      ; External
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/opam__s__gen-opam__c__0.5.2-9d671c7c/lib"
+#      ; External
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/opam__s__biniou-opam__c__1.2.1-fc43b1d6/lib"
+#      ; External
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/opam__s__easy_format-opam__c__1.3.2-a38d9a58/lib"
+#      ; External
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/opam__s__num-opam__c__1.4-5c745007/lib"
+#      ; External
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/opam__s__atd-opam__c__2.2.1-6c03efbb/lib"
+#      ; External
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/opam__s__atdgen_runtime-opam__c__2.2.1-7ad95985/lib"
+#      ; External
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/opam__s__seq-opam__c__0.2.2-434ed2f5/lib"
+#      ; External
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/esy_m4-348b30cd/lib"
+#      ; External
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/opam__s__base_bytes-opam__c__base-c49a4c0a/lib"
+#      ; External
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/opam__s__dune-opam__c__2.7.0-890096cf/lib"
+#      ]
+#  ; arch_sixtyfour = true
+#  ; natdynlink_supported = true
+#  ; supports_shared_libraries = true
+#  ; ocaml_config =
+#      { version = "4.06.1"
+#      ; standard_library_default =
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/ocaml-4.6.1003-080693f6/lib/ocaml"
+#      ; standard_library =
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/ocaml-4.6.1003-080693f6/lib/ocaml"
+#      ; standard_runtime =
+#          "/Users/melwyns/.esy/3_________________________________________________________________/i/ocaml-4.6.1003-080693f6/bin/ocamlrun"
+#      ; ccomp_type = "cc"
+#      ; c_compiler = "gcc"
+#      ; ocamlc_cflags = [ "-O2"; "-fno-strict-aliasing"; "-fwrapv" ]
+#      ; ocamlc_cppflags = [ "-D_FILE_OFFSET_BITS=64"; "-D_REENTRANT" ]
+#      ; ocamlopt_cflags = [ "-O2"; "-fno-strict-aliasing"; "-fwrapv" ]
+#      ; ocamlopt_cppflags = [ "-D_FILE_OFFSET_BITS=64"; "-D_REENTRANT" ]
+#      ; bytecomp_c_compiler =
+#          [ "gcc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-D_REENTRANT"
+#          ]
+#      ; bytecomp_c_libraries = [ "-lcurses"; "-lpthread" ]
+#      ; native_c_compiler =
+#          [ "gcc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-D_REENTRANT"
+#          ]
+#      ; native_c_libraries = []
+#      ; cc_profile = [ "-pg" ]
+#      ; architecture = "amd64"
+#      ; model = "default"
+#      ; int_size = 63
+#      ; word_size = 64
+#      ; system = "macosx"
+#      ; asm = [ "clang"; "-arch"; "x86_64"; "-Wno-trigraphs"; "-c" ]
+#      ; asm_cfi_supported = false
+#      ; with_frame_pointers = false
+#      ; ext_exe = ""
+#      ; ext_obj = ".o"
+#      ; ext_asm = ".s"
+#      ; ext_lib = ".a"
+#      ; ext_dll = ".so"
+#      ; os_type = "Unix"
+#      ; default_executable_name = "a.out"
+#      ; systhread_supported = true
+#      ; host = "x86_64-apple-darwin20.2.0"
+#      ; target = "x86_64-apple-darwin20.2.0"
+#      ; profiling = true
+#      ; flambda = false
+#      ; spacetime = false
+#      ; safe_string = false
+#      ; exec_magic_number = "Caml1999X011"
+#      ; cmi_magic_number = "Caml1999I022"
+#      ; cmo_magic_number = "Caml1999O022"
+#      ; cma_magic_number = "Caml1999A022"
+#      ; cmx_magic_number = "Caml1999Y022"
+#      ; cmxa_magic_number = "Caml1999Z022"
+#      ; ast_impl_magic_number = "Caml1999M022"
+#      ; ast_intf_magic_number = "Caml1999N022"
+#      ; cmxs_magic_number = "Caml1999D022"
+#      ; cmt_magic_number = "Caml1999T022"
+#      ; natdynlink_supported = true
+#      ; supports_shared_libraries = true
+#      ; windows_unicode = false
+#      }
+#  }
+$ (cd bin && /Users/melwyns/.esy/3_________________________________________________________________/i/ocaml-4.6.1003-080693f6/bin/ocaml -I +compiler-libs /Users/melwyns/oss/js_pretty_printer/_esy/default/store/b/js_pretty_printer-0a67669e/.dune/default/bin/dune.ml)
+$ (cd library && /Users/melwyns/.esy/3_________________________________________________________________/i/ocaml-4.6.1003-080693f6/bin/ocaml -I +compiler-libs /Users/melwyns/oss/js_pretty_printer/_esy/default/store/b/js_pretty_printer-0a67669e/.dune/default/library/dune.ml)
+$ (cd /Users/melwyns/oss/js_pretty_printer/_esy/default/store/b/js_pretty_printer-0a67669e/default/bin && /bin/echo 'module Library = JsPrettyPrinterLibrary;') > /Users/melwyns/oss/js_pretty_printer/_esy/default/store/b/js_pretty_printer-0a67669e/default/bin/JsPrettyPrinterBinPesyModules.re
+$ (cd /Users/melwyns/oss/js_pretty_printer/_esy/default/store/b/js_pretty_printer-0a67669e/default && /Users/melwyns/.esy/3_________________________________________________________________/i/ocaml-4.6.1003-080693f6/bin/ocamlc.opt -w -40 -w -49 -nopervasives -nostdlib -g -bin-annot -I library/.JsPrettyPrinterLibrary.objs/byte -no-alias-deps -o library/.JsPrettyPrinterLibrary.objs/byte/jsPrettyPrinterLibrary.cmo -c -impl library/jsPrettyPrinterLibrary.ml-gen)
+$ (cd /Users/melwyns/oss/js_pretty_printer/_esy/default/store/b/js_pretty_printer-0a67669e/default && /Users/melwyns/.esy/3_________________________________________________________________/i/esy_ocaml__s__reason-3.6.2-767ed294/bin/refmt --print binary library/Util.rei) > /Users/melwyns/oss/js_pretty_printer/_esy/default/store/b/js_pretty_printer-0a67669e/default/library/Util.rei.mli
+$ (cd /Users/melwyns/oss/js_pretty_printer/_esy/default/store/b/js_pretty_printer-0a67669e/default && /Users/melwyns/.esy/3_________________________________________________________________/i/esy_ocaml__s__reason-3.6.2-767ed294/bin/refmt --print binary library/Util.re) > /Users/melwyns/oss/js_pretty_printer/_esy/default/store/b/js_pretty_printer-0a67669e/default/library/Util.re.ml
+$ (cd /Users/melwyns/oss/js_pretty_printer/_esy/default/store/b/js_pretty_printer-0a67669e/default && /Users/melwyns/.esy/3_________________________________________________________________/i/esy_ocaml__s__reason-3.6.2-767ed294/bin/refmt --print binary bin/JsPrettyPrinterApp.re) > /Users/melwyns/oss/js_pretty_printer/_esy/default/store/b/js_pretty_printer-0a67669e/default/bin/JsPrettyPrinterApp.re.ml
+$ (cd /Users/melwyns/oss/js_pretty_printer/_esy/default/store/b/js_pretty_printer-0a67669e/default && /Users/melwyns/.esy/3_________________________________________________________________/i/esy_ocaml__s__reason-3.6.2-767ed294/bin/refmt --print binary bin/JsPrettyPrinterBinPesyModules.re) > /Users/melwyns/oss/js_pretty_printer/_esy/default/store/b/js_pretty_printer-0a67669e/default/bin/JsPrettyPrinterBinPesyModules.re.ml
+$ (cd /Users/melwyns/oss/js_pretty_printer/_esy/default/store/b/js_pretty_printer-0a67669e/default && /Users/melwyns/.esy/3_________________________________________________________________/i/ocaml-4.6.1003-080693f6/bin/ocamldep.opt -modules -intf library/Util.rei.mli) > /Users/melwyns/oss/js_pretty_printer/_esy/default/store/b/js_pretty_printer-0a67669e/default/library/.JsPrettyPrinterLibrary.objs/Util.rei.mli.d
+$ (cd /Users/melwyns/oss/js_pretty_printer/_esy/default/store/b/js_pretty_printer-0a67669e/default && /Users/melwyns/.esy/3_________________________________________________________________/i/ocaml-4.6.1003-080693f6/bin/ocamldep.opt -modules -impl library/Util.re.ml) > /Users/melwyns/oss/js_pretty_printer/_esy/default/store/b/js_pretty_printer-0a67669e/default/library/.JsPrettyPrinterLibrary.objs/Util.re.ml.d
+$ (cd /Users/melwyns/oss/js_pretty_printer/_esy/default/store/b/js_pretty_printer-0a67669e/default && /Users/melwyns/.esy/3_________________________________________________________________/i/ocaml-4.6.1003-080693f6/bin/ocamldep.opt -modules -impl bin/JsPrettyPrinterApp.re.ml) > /Users/melwyns/oss/js_pretty_printer/_esy/default/store/b/js_pretty_printer-0a67669e/default/bin/.JsPrettyPrinterApp.eobjs/JsPrettyPrinterApp.re.ml.d
+$ (cd /Users/melwyns/oss/js_pretty_printer/_esy/default/store/b/js_pretty_printer-0a67669e/default && /Users/melwyns/.esy/3_________________________________________________________________/i/ocaml-4.6.1003-080693f6/bin/ocamldep.opt -modules -impl bin/JsPrettyPrinterBinPesyModules.re.ml) > /Users/melwyns/oss/js_pretty_printer/_esy/default/store/b/js_pretty_printer-0a67669e/default/bin/.JsPrettyPrinterBinPesyModules.objs/JsPrettyPrinterBinPesyModules.re.ml.d
+$ (cd /Users/melwyns/oss/js_pretty_printer/_esy/default/store/b/js_pretty_printer-0a67669e/default && /Users/melwyns/.esy/3_________________________________________________________________/i/ocaml-4.6.1003-080693f6/bin/ocamlc.opt -w -40 -g -bin-annot -I library/.JsPrettyPrinterLibrary.objs/byte -no-alias-deps -open JsPrettyPrinterLibrary -o library/.JsPrettyPrinterLibrary.objs/byte/jsPrettyPrinterLibrary__Util.cmi -c -intf library/Util.rei.mli)
+$ (cd /Users/melwyns/oss/js_pretty_printer/_esy/default/store/b/js_pretty_printer-0a67669e/default && /Users/melwyns/.esy/3_________________________________________________________________/i/ocaml-4.6.1003-080693f6/bin/ocamlc.opt -w -40 -g -bin-annot -I bin/.JsPrettyPrinterBinPesyModules.objs/byte -I library/.JsPrettyPrinterLibrary.objs/byte -I library/.JsPrettyPrinterLibrary.objs/native -no-alias-deps -o bin/.JsPrettyPrinterBinPesyModules.objs/byte/jsPrettyPrinterBinPesyModules.cmo -c -impl bin/JsPrettyPrinterBinPesyModules.re.ml)
+$ (cd /Users/melwyns/oss/js_pretty_printer/_esy/default/store/b/js_pretty_printer-0a67669e/default && /Users/melwyns/.esy/3_________________________________________________________________/i/ocaml-4.6.1003-080693f6/bin/ocamlc.opt -w -40 -g -bin-annot -I library/.JsPrettyPrinterLibrary.objs/byte -intf-suffix .ml -no-alias-deps -open JsPrettyPrinterLibrary -o library/.JsPrettyPrinterLibrary.objs/byte/jsPrettyPrinterLibrary__Util.cmo -c -impl library/Util.re.ml)
+$ (cd /Users/melwyns/oss/js_pretty_printer/_esy/default/store/b/js_pretty_printer-0a67669e/default && /Users/melwyns/.esy/3_________________________________________________________________/i/ocaml-4.6.1003-080693f6/bin/ocamlopt.opt -w -40 -w -49 -nopervasives -nostdlib -g -I library/.JsPrettyPrinterLibrary.objs/byte -I library/.JsPrettyPrinterLibrary.objs/native -intf-suffix .ml-gen -no-alias-deps -o library/.JsPrettyPrinterLibrary.objs/native/jsPrettyPrinterLibrary.cmx -c -impl library/jsPrettyPrinterLibrary.ml-gen)
+$ (cd /Users/melwyns/oss/js_pretty_printer/_esy/default/store/b/js_pretty_printer-0a67669e/default && /Users/melwyns/.esy/3_________________________________________________________________/i/ocaml-4.6.1003-080693f6/bin/ocamlc.opt -w -40 -g -a -o bin/JsPrettyPrinterBinPesyModules.cma bin/.JsPrettyPrinterBinPesyModules.objs/byte/jsPrettyPrinterBinPesyModules.cmo)
+$ (cd /Users/melwyns/oss/js_pretty_printer/_esy/default/store/b/js_pretty_printer-0a67669e/default && /Users/melwyns/.esy/3_________________________________________________________________/i/ocaml-4.6.1003-080693f6/bin/ocamlc.opt -w -40 -g -a -o library/JsPrettyPrinterLibrary.cma library/.JsPrettyPrinterLibrary.objs/byte/jsPrettyPrinterLibrary.cmo library/.JsPrettyPrinterLibrary.objs/byte/jsPrettyPrinterLibrary__Util.cmo)
+$ (cd /Users/melwyns/oss/js_pretty_printer/_esy/default/store/b/js_pretty_printer-0a67669e/default && /Users/melwyns/.esy/3_________________________________________________________________/i/ocaml-4.6.1003-080693f6/bin/ocamlopt.opt -w -40 -g -I library/.JsPrettyPrinterLibrary.objs/byte -I library/.JsPrettyPrinterLibrary.objs/native -intf-suffix .ml -no-alias-deps -open JsPrettyPrinterLibrary -o library/.JsPrettyPrinterLibrary.objs/native/jsPrettyPrinterLibrary__Util.cmx -c -impl library/Util.re.ml)
+$ (cd /Users/melwyns/oss/js_pretty_printer/_esy/default/store/b/js_pretty_printer-0a67669e/default && /Users/melwyns/.esy/3_________________________________________________________________/i/ocaml-4.6.1003-080693f6/bin/ocamlopt.opt -w -40 -g -a -o library/JsPrettyPrinterLibrary.cmxa library/.JsPrettyPrinterLibrary.objs/native/jsPrettyPrinterLibrary.cmx library/.JsPrettyPrinterLibrary.objs/native/jsPrettyPrinterLibrary__Util.cmx)
+$ (cd /Users/melwyns/oss/js_pretty_printer/_esy/default/store/b/js_pretty_printer-0a67669e/default && /Users/melwyns/.esy/3_________________________________________________________________/i/ocaml-4.6.1003-080693f6/bin/ocamlopt.opt -w -40 -g -I bin/.JsPrettyPrinterBinPesyModules.objs/byte -I bin/.JsPrettyPrinterBinPesyModules.objs/native -I library/.JsPrettyPrinterLibrary.objs/byte -I library/.JsPrettyPrinterLibrary.objs/native -intf-suffix .ml -no-alias-deps -o bin/.JsPrettyPrinterBinPesyModules.objs/native/jsPrettyPrinterBinPesyModules.cmx -c -impl bin/JsPrettyPrinterBinPesyModules.re.ml)
+$ (cd /Users/melwyns/oss/js_pretty_printer/_esy/default/store/b/js_pretty_printer-0a67669e/default && /Users/melwyns/.esy/3_________________________________________________________________/i/ocaml-4.6.1003-080693f6/bin/ocamlopt.opt -w -40 -g -a -o bin/JsPrettyPrinterBinPesyModules.cmxa bin/.JsPrettyPrinterBinPesyModules.objs/native/jsPrettyPrinterBinPesyModules.cmx)
+$ (cd /Users/melwyns/oss/js_pretty_printer/_esy/default/store/b/js_pretty_printer-0a67669e/default && /Users/melwyns/.esy/3_________________________________________________________________/i/ocaml-4.6.1003-080693f6/bin/ocamlc.opt -open JsPrettyPrinterBinPesyModules -g -bin-annot -I bin/.JsPrettyPrinterApp.eobjs/byte -I bin/.JsPrettyPrinterBinPesyModules.objs/byte -I bin/.JsPrettyPrinterBinPesyModules.objs/native -I library/.JsPrettyPrinterLibrary.objs/byte -I library/.JsPrettyPrinterLibrary.objs/native -no-alias-deps -o bin/.JsPrettyPrinterApp.eobjs/byte/jsPrettyPrinterApp.cmo -c -impl bin/JsPrettyPrinterApp.re.ml)
+$ (cd /Users/melwyns/oss/js_pretty_printer/_esy/default/store/b/js_pretty_printer-0a67669e/default && /Users/melwyns/.esy/3_________________________________________________________________/i/ocaml-4.6.1003-080693f6/bin/ocamlopt.opt -w -40 -g -shared -linkall -I library -o library/JsPrettyPrinterLibrary.cmxs library/JsPrettyPrinterLibrary.cmxa)
+$ (cd /Users/melwyns/oss/js_pretty_printer/_esy/default/store/b/js_pretty_printer-0a67669e/default && /Users/melwyns/.esy/3_________________________________________________________________/i/ocaml-4.6.1003-080693f6/bin/ocamlopt.opt -w -40 -g -shared -linkall -I bin -o bin/JsPrettyPrinterBinPesyModules.cmxs bin/JsPrettyPrinterBinPesyModules.cmxa)
+$ (cd /Users/melwyns/oss/js_pretty_printer/_esy/default/store/b/js_pretty_printer-0a67669e/default && /Users/melwyns/.esy/3_________________________________________________________________/i/ocaml-4.6.1003-080693f6/bin/ocamlopt.opt -open JsPrettyPrinterBinPesyModules -g -I bin/.JsPrettyPrinterApp.eobjs/byte -I bin/.JsPrettyPrinterApp.eobjs/native -I bin/.JsPrettyPrinterBinPesyModules.objs/byte -I bin/.JsPrettyPrinterBinPesyModules.objs/native -I library/.JsPrettyPrinterLibrary.objs/byte -I library/.JsPrettyPrinterLibrary.objs/native -intf-suffix .ml -no-alias-deps -o bin/.JsPrettyPrinterApp.eobjs/native/jsPrettyPrinterApp.cmx -c -impl bin/JsPrettyPrinterApp.re.ml)
+$ (cd /Users/melwyns/oss/js_pretty_printer/_esy/default/store/b/js_pretty_printer-0a67669e/default && /Users/melwyns/.esy/3_________________________________________________________________/i/ocaml-4.6.1003-080693f6/bin/ocamlopt.opt -open JsPrettyPrinterBinPesyModules -g -o bin/JsPrettyPrinterApp.exe library/JsPrettyPrinterLibrary.cmxa bin/JsPrettyPrinterBinPesyModules.cmxa bin/.JsPrettyPrinterApp.eobjs/native/jsPrettyPrinterApp.cmx)

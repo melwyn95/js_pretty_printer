@@ -1,0 +1,10 @@
+# esy-build-package: building: @pesy/esy-pesy@link:/Users/melwyns/oss/pesy
+# esy-build-package: pwd: /Users/melwyns/oss/pesy
+# esy-build-package: running: 'dune' 'build' '-p' 'pesy--esy-pesy'
+      ocamlc utils/.PesyEsyPesyUtils.objs/byte/pesyEsyPesyUtils__JSON.{cmi,cmti} (exit 2)
+(cd _build/default && /Users/melwyns/.esy/3_________________________________________________________________/i/ocaml-4.6.1003-080693f6/bin/ocamlc.opt -w -40 -g -bin-annot -I utils/.PesyEsyPesyUtils.objs/byte -I /Users/melwyns/.esy/3_________________________________________________________________/i/opam__s__biniou-opam__c__1.2.1-9d522f8c/lib/biniou -I /Users/melwyns/.esy/3_________________________________________________________________/i/opam__s__easy_format-opam__c__1.3.2-b795c569/lib/easy-format -I /Users/melwyns/.esy/3_________________________________________________________________/i/opam__s__re-opam__c__1.9.0-ffb97e64/lib/re -I /Users/melwyns/.esy/3_________________________________________________________________/i/opam__s__seq-opam__c__0.2.2-47c2ec74/lib/seq -I /Users/melwyns/.esy/3_________________________________________________________________/i/opam__s__yojson-opam__c__1.7.0-959c33be/lib/yojson -I /Users/melwyns/.esy/3_________________________________________________________________/i/reason_native__s__pastel-0.3.0-74799b3c/lib/pastel/internal -I /Users/melwyns/.esy/3_________________________________________________________________/i/reason_native__s__pastel-0.3.0-74799b3c/lib/pastel/lib -no-alias-deps -open PesyEsyPesyUtils -o utils/.PesyEsyPesyUtils.objs/byte/pesyEsyPesyUtils__JSON.cmi -c -intf utils/JSON.rei.mli)
+File "utils/JSON.rei", line 2, characters 5-6:
+Error: Multiple definition of the type name t.
+       Names must be unique in a given structure or signature.
+error: command failed: 'dune' 'build' '-p' 'pesy--esy-pesy' (exited with 1)
+esy-build-package: exiting with errors above...
