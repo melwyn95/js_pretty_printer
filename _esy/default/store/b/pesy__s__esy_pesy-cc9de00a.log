@@ -1,0 +1,7 @@
+# esy-build-package: building: @pesy/esy-pesy@link:/Users/melwyns/oss/pesy
+# esy-build-package: pwd: /Users/melwyns/oss/pesy
+# esy-build-package: running: 'dune' 'build' '-p' 'pesy--esy-pesy'
+# esy-build-package: running: 'esy-installer' 'pesy--esy-pesy.install'
+# esy-build-package: installing using built-in installer
+# esy-build-package: rewriting prefix: /Users/melwyns/oss/js_pretty_printer/_esy/default/store/s/pesy__s__esy_pesy-cc9de00a -> /Users/melwyns/oss/js_pretty_printer/_esy/default/store/i/pesy__s__esy_pesy-cc9de00a
+# esy-build-package: committing: /Users/melwyns/oss/js_pretty_printer/_esy/default/store/s/pesy__s__esy_pesy-cc9de00a -> /Users/melwyns/oss/js_pretty_printer/_esy/default/store/i/pesy__s__esy_pesy-cc9de00a
