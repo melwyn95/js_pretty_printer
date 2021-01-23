@@ -1,0 +1,44 @@
+{
+  "name": "js-pretty-printer",
+  "version": "0.1.0",
+  "description": "Starter Reason Project",
+  "esy": {
+    "build": "dune build -p #{self.name}",
+    "buildDev": "pesy build",
+    "release": {
+      "rewritePrefix": true,
+      "releasedBinaries": [
+        "JsPrettyPrinterApp"
+      ]
+    }
+  },
+  "pesy": {
+    "azure-project": "esy-dev/esy",
+    "github": "esy/pesy-reason-template"
+  },
+  "buildDirs": {
+    "library": {},
+    "bin": {
+      "imports": [
+        "Library = require('js-pretty-printer/library')"
+      ],
+     "bin": {
+        "JsPrettyPrinterApp": "JsPrettyPrinterApp.re"
+      }
+    }
+  },
+  "scripts": {
+    "start": "esy x JsPrettyPrinterApp"
+  },
+  "dependencies": {
+    "@opam/dune": "*",
+    "@esy-ocaml/reason": "*",
+    "@pesy/esy-pesy": "0.1.0-alpha.11",
+    "ocaml": "~4.9.0"
+  },
+  "devDependencies": {
+    "@opam/merlin": "*",
+    "@opam/ocaml-lsp-server": "ocaml/ocaml-lsp:ocaml-lsp-server.opam",
+    "refmterr": "*"
+  }
+}

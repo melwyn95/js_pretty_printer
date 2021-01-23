@@ -1,0 +1,4 @@
+#!/bin/sh
+export ESY__NODE_BIN_PATH="/Users/melwyns/oss/js_pretty_printer/_esy/default/bin"
+exec "/Users/melwyns/.nvm/versions/node/v14.15.4/bin/node" -r "/Users/melwyns/oss/js_pretty_printer/_esy/default/pnp.js" "$@"
+              

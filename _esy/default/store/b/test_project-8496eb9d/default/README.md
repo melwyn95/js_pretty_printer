@@ -1,5 +1,4 @@
-# js_pretty_printer
-JS pretty printer written in Reason
+# js-pretty-printer
 
 A project which demonstrates a Reason workflow with [Esy][].
 
