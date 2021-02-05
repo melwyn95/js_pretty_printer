@@ -90,32 +90,21 @@ function blacklistCheck(locator) {
 }
 
 let packageInformationStores = new Map([
-["@esy-ocaml/flow-parser",
-new Map([["0.36.1",
+["@esy-ocaml/reason",
+new Map([["3.6.2",
          {
-           packageLocation: "/Users/melwyns/.esy/source/i/esy_ocaml__s__flow_parser__0.36.1__57fbb325/",
-           packageDependencies: new Map([["@esy-ocaml/flow-parser", "0.36.1"],
-                                           ["@opam/ocamlbuild",
-                                           "opam:0.14.0"],
+           packageLocation: "/Users/melwyns/.esy/source/i/esy_ocaml__s__reason__3.6.2__60f688e6/",
+           packageDependencies: new Map([["@esy-ocaml/reason", "3.6.2"],
+                                           ["@opam/dune", "opam:2.7.0"],
+                                           ["@opam/fix", "opam:20201120"],
+                                           ["@opam/menhir", "opam:20201216"],
+                                           ["@opam/merlin-extend",
+                                           "opam:0.6"],
                                            ["@opam/ocamlfind", "opam:1.8.1"],
+                                           ["@opam/ppx_derivers",
+                                           "opam:1.2.1"],
+                                           ["@opam/result", "opam:1.5"],
                                            ["ocaml", "4.8.0"]])}]])],
-  ["@esy-ocaml/reason",
-  new Map([["3.6.2",
-           {
-             packageLocation: "/Users/melwyns/.esy/source/i/esy_ocaml__s__reason__3.6.2__60f688e6/",
-             packageDependencies: new Map([["@esy-ocaml/reason", "3.6.2"],
-                                             ["@opam/dune", "opam:2.7.0"],
-                                             ["@opam/fix", "opam:20201120"],
-                                             ["@opam/menhir",
-                                             "opam:20201216"],
-                                             ["@opam/merlin-extend",
-                                             "opam:0.6"],
-                                             ["@opam/ocamlfind",
-                                             "opam:1.8.1"],
-                                             ["@opam/ppx_derivers",
-                                             "opam:1.2.1"],
-                                             ["@opam/result", "opam:1.5"],
-                                             ["ocaml", "4.8.0"]])}]])],
   ["@esy-ocaml/substs",
   new Map([["0.0.1",
            {
@@ -351,9 +340,9 @@ new Map([["0.36.1",
                                              "opam:1.8.1"],
                                              ["ocaml", "4.8.0"]])}]])],
   ["@opam/ocaml-lsp-server",
-  new Map([["github:ocaml/ocaml-lsp:ocaml-lsp-server.opam#cb8aba2238ba5b0e5a6fe0a3180f25077496f75a",
+  new Map([["github:ocaml/ocaml-lsp:ocaml-lsp-server.opam#89e8d36158b917e85ba3676ba6de1de4133c4ca8",
            {
-             packageLocation: "/Users/melwyns/.esy/source/i/opam__s__ocaml_lsp_server__6fbed1ae/",
+             packageLocation: "/Users/melwyns/.esy/source/i/opam__s__ocaml_lsp_server__d624fa8f/",
              packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
                                              ["@opam/csexp", "opam:1.3.2"],
                                              ["@opam/dot-merlin-reader",
@@ -362,23 +351,15 @@ new Map([["0.36.1",
                                              ["@opam/dune-build-info",
                                              "opam:2.7.1"],
                                              ["@opam/ocaml-lsp-server",
-                                             "github:ocaml/ocaml-lsp:ocaml-lsp-server.opam#cb8aba2238ba5b0e5a6fe0a3180f25077496f75a"],
+                                             "github:ocaml/ocaml-lsp:ocaml-lsp-server.opam#89e8d36158b917e85ba3676ba6de1de4133c4ca8"],
                                              ["@opam/ocamlfind",
                                              "opam:1.8.1"],
                                              ["@opam/ppx_yojson_conv_lib",
                                              "opam:v0.14.0"],
                                              ["@opam/result", "opam:1.5"],
                                              ["@opam/stdlib-shims",
-                                             "opam:0.1.0"],
+                                             "opam:0.3.0"],
                                              ["@opam/yojson", "opam:1.7.0"],
-                                             ["ocaml", "4.8.0"]])}]])],
-  ["@opam/ocamlbuild",
-  new Map([["opam:0.14.0",
-           {
-             packageLocation: "/Users/melwyns/.esy/source/i/opam__s__ocamlbuild__opam__c__0.14.0__aff6a0b0/",
-             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
-                                             ["@opam/ocamlbuild",
-                                             "opam:0.14.0"],
                                              ["ocaml", "4.8.0"]])}]])],
   ["@opam/ocamlfind",
   new Map([["opam:1.8.1",
@@ -468,13 +449,13 @@ new Map([["0.36.1",
                                              "opam:v0.14.0"],
                                              ["ocaml", "4.8.0"]])}]])],
   ["@opam/stdlib-shims",
-  new Map([["opam:0.1.0",
+  new Map([["opam:0.3.0",
            {
-             packageLocation: "/Users/melwyns/.esy/source/i/opam__s__stdlib_shims__opam__c__0.1.0__daeb8f54/",
+             packageLocation: "/Users/melwyns/.esy/source/i/opam__s__stdlib_shims__opam__c__0.3.0__daf52145/",
              packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
                                              ["@opam/dune", "opam:2.7.0"],
                                              ["@opam/stdlib-shims",
-                                             "opam:0.1.0"],
+                                             "opam:0.3.0"],
                                              ["ocaml", "4.8.0"]])}]])],
   ["@opam/yojson",
   new Map([["opam:1.7.0",
@@ -524,14 +505,6 @@ new Map([["0.36.1",
                                              ["@reason-native/pastel",
                                              "0.3.0"],
                                              ["ocaml", "4.8.0"]])}]])],
-  ["esy-flow",
-  new Map([["link:/Users/melwyns/oss/esy-flow",
-           {
-             packageLocation: "/Users/melwyns/oss/esy-flow/",
-             packageDependencies: new Map([["@opam/dune", "opam:2.7.0"],
-                                             ["esy-flow",
-                                             "link:/Users/melwyns/oss/esy-flow"],
-                                             ["ocaml", "4.8.0"]])}]])],
   ["esy-m4",
   new Map([["github:esy-packages/esy-m4#c7cf0ac9221be2b1f9d90e83559ca08397a629e7",
            {
@@ -561,19 +534,15 @@ new Map([["0.36.1",
   new Map([[null,
            {
              packageLocation: "/Users/melwyns/oss/js_pretty_printer/",
-             packageDependencies: new Map([["@esy-ocaml/flow-parser",
-                                           "0.36.1"],
-                                             ["@esy-ocaml/reason", "3.6.2"],
+             packageDependencies: new Map([["@esy-ocaml/reason", "3.6.2"],
                                              ["@opam/dune", "opam:2.7.0"],
                                              ["@opam/merlin", "opam:3.4.2"],
                                              ["@opam/ocaml-lsp-server",
-                                             "github:ocaml/ocaml-lsp:ocaml-lsp-server.opam#cb8aba2238ba5b0e5a6fe0a3180f25077496f75a"],
+                                             "github:ocaml/ocaml-lsp:ocaml-lsp-server.opam#89e8d36158b917e85ba3676ba6de1de4133c4ca8"],
                                              ["@pesy/esy-pesy",
                                              "link:/Users/melwyns/oss/pesy"],
                                              ["@reason-native/console",
                                              "0.1.0"],
-                                             ["esy-flow",
-                                             "link:/Users/melwyns/oss/esy-flow"],
                                              ["ocaml", "4.8.0"],
                                              ["refmterr", "3.3.2"]])}]])]]);
 
@@ -583,10 +552,6 @@ let locatorsByLocations = new Map([
   {
     name: "esy-m4",
     reference: "github:esy-packages/esy-m4#c7cf0ac9221be2b1f9d90e83559ca08397a629e7"}],
-  ["../../../../.esy/source/i/esy_ocaml__s__flow_parser__0.36.1__57fbb325/",
-  {
-    name: "@esy-ocaml/flow-parser",
-    reference: "0.36.1"}],
   ["../../../../.esy/source/i/esy_ocaml__s__reason__3.6.2__60f688e6/",
   {
     name: "@esy-ocaml/reason",
@@ -691,14 +656,10 @@ let locatorsByLocations = new Map([
   {
     name: "@opam/num",
     reference: "opam:1.4"}],
-  ["../../../../.esy/source/i/opam__s__ocaml_lsp_server__6fbed1ae/",
+  ["../../../../.esy/source/i/opam__s__ocaml_lsp_server__d624fa8f/",
   {
     name: "@opam/ocaml-lsp-server",
-    reference: "github:ocaml/ocaml-lsp:ocaml-lsp-server.opam#cb8aba2238ba5b0e5a6fe0a3180f25077496f75a"}],
-  ["../../../../.esy/source/i/opam__s__ocamlbuild__opam__c__0.14.0__aff6a0b0/",
-  {
-    name: "@opam/ocamlbuild",
-    reference: "opam:0.14.0"}],
+    reference: "github:ocaml/ocaml-lsp:ocaml-lsp-server.opam#89e8d36158b917e85ba3676ba6de1de4133c4ca8"}],
   ["../../../../.esy/source/i/opam__s__ocamlfind__opam__c__1.8.1__0bdaf9d3/",
   {
     name: "@opam/ocamlfind",
@@ -735,10 +696,10 @@ let locatorsByLocations = new Map([
   {
     name: "@opam/sexplib",
     reference: "opam:v0.14.0"}],
-  ["../../../../.esy/source/i/opam__s__stdlib_shims__opam__c__0.1.0__daeb8f54/",
+  ["../../../../.esy/source/i/opam__s__stdlib_shims__opam__c__0.3.0__daf52145/",
   {
     name: "@opam/stdlib-shims",
-    reference: "opam:0.1.0"}],
+    reference: "opam:0.3.0"}],
   ["../../../../.esy/source/i/opam__s__yojson__opam__c__1.7.0__397feda6/",
   {
     name: "@opam/yojson",
@@ -755,10 +716,6 @@ let locatorsByLocations = new Map([
   {
     name: "refmterr",
     reference: "3.3.2"}],
-  ["../../../esy-flow/",
-  {
-    name: "esy-flow",
-    reference: "link:/Users/melwyns/oss/esy-flow"}],
   ["../../../pesy/",
   {
     name: "@pesy/esy-pesy",
@@ -879,11 +836,6 @@ let locatorsByLocations = new Map([
 
       if (relativeLocation.length >= 43 && relativeLocation[42] === '/')
         if (match = locatorsByLocations.get(relativeLocation.substr(0, 43)))
-          return blacklistCheck(match);
-      
-
-      if (relativeLocation.length >= 18 && relativeLocation[17] === '/')
-        if (match = locatorsByLocations.get(relativeLocation.substr(0, 18)))
           return blacklistCheck(match);
       
 

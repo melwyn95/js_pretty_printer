@@ -1,5 +1,5 @@
 {
-  "checksum": "952966a1e86af826c59887ffada5a2ec",
+  "checksum": "4214d5bcc93769e852f5638addc5919d",
   "root": "js-pretty-printer@link-dev:./package.json",
   "node": {
     "refmterr@3.3.2@d41d8cd9": {
@@ -47,15 +47,13 @@
       },
       "overrides": [],
       "dependencies": [
-        "ocaml@4.8.0@d41d8cd9", "esy-flow@link:/Users/melwyns/oss/esy-flow",
-        "@reason-native/console@0.1.0@d41d8cd9",
+        "ocaml@4.8.0@d41d8cd9", "@reason-native/console@0.1.0@d41d8cd9",
         "@pesy/esy-pesy@link:/Users/melwyns/oss/pesy",
-        "@opam/dune@opam:2.7.0@000216e1", "@esy-ocaml/reason@3.6.2@d41d8cd9",
-        "@esy-ocaml/flow-parser@0.36.1@d41d8cd9"
+        "@opam/dune@opam:2.7.0@000216e1", "@esy-ocaml/reason@3.6.2@d41d8cd9"
       ],
       "devDependencies": [
         "refmterr@3.3.2@d41d8cd9",
-        "@opam/ocaml-lsp-server@github:ocaml/ocaml-lsp:ocaml-lsp-server.opam#cb8aba2238ba5b0e5a6fe0a3180f25077496f75a@d41d8cd9",
+        "@opam/ocaml-lsp-server@github:ocaml/ocaml-lsp:ocaml-lsp-server.opam#89e8d36158b917e85ba3676ba6de1de4133c4ca8@d41d8cd9",
         "@opam/merlin@opam:3.4.2@9a4d1fd4"
       ]
     },
@@ -74,17 +72,6 @@
       "overrides": [],
       "dependencies": [],
       "devDependencies": []
-    },
-    "esy-flow@link:/Users/melwyns/oss/esy-flow": {
-      "id": "esy-flow@link:/Users/melwyns/oss/esy-flow",
-      "name": "esy-flow",
-      "version": "link:/Users/melwyns/oss/esy-flow",
-      "source": { "type": "link", "path": "/Users/melwyns/oss/esy-flow" },
-      "overrides": [],
-      "dependencies": [
-        "ocaml@4.8.0@d41d8cd9", "@opam/dune@opam:2.7.0@000216e1"
-      ],
-      "devDependencies": [ "ocaml@4.8.0@d41d8cd9" ]
     },
     "@reason-native/pastel@0.3.0@d41d8cd9": {
       "id": "@reason-native/pastel@0.3.0@d41d8cd9",
@@ -167,20 +154,20 @@
         "@opam/dune@opam:2.7.0@000216e1", "@opam/biniou@opam:1.2.1@d7570399"
       ]
     },
-    "@opam/stdlib-shims@opam:0.1.0@148f22ac": {
-      "id": "@opam/stdlib-shims@opam:0.1.0@148f22ac",
+    "@opam/stdlib-shims@opam:0.3.0@0d088929": {
+      "id": "@opam/stdlib-shims@opam:0.3.0@0d088929",
       "name": "@opam/stdlib-shims",
-      "version": "opam:0.1.0",
+      "version": "opam:0.3.0",
       "source": {
         "type": "install",
         "source": [
-          "archive:https://opam.ocaml.org/cache/md5/12/12b5704eed70c6bff5ac39a16db1425d#md5:12b5704eed70c6bff5ac39a16db1425d",
-          "archive:https://github.com/ocaml/stdlib-shims/releases/download/0.1.0/stdlib-shims-0.1.0.tbz#md5:12b5704eed70c6bff5ac39a16db1425d"
+          "archive:https://opam.ocaml.org/cache/sha256/ba/babf72d3917b86f707885f0c5528e36c63fccb698f4b46cf2bab5c7ccdd6d84a#sha256:babf72d3917b86f707885f0c5528e36c63fccb698f4b46cf2bab5c7ccdd6d84a",
+          "archive:https://github.com/ocaml/stdlib-shims/releases/download/0.3.0/stdlib-shims-0.3.0.tbz#sha256:babf72d3917b86f707885f0c5528e36c63fccb698f4b46cf2bab5c7ccdd6d84a"
         ],
         "opam": {
           "name": "stdlib-shims",
-          "version": "0.1.0",
-          "path": "esy.lock/opam/stdlib-shims.0.1.0"
+          "version": "0.3.0",
+          "path": "esy.lock/opam/stdlib-shims.0.3.0"
         }
       },
       "overrides": [],
@@ -422,49 +409,22 @@
       ],
       "devDependencies": [ "ocaml@4.8.0@d41d8cd9" ]
     },
-    "@opam/ocamlbuild@opam:0.14.0@6ac75d03": {
-      "id": "@opam/ocamlbuild@opam:0.14.0@6ac75d03",
-      "name": "@opam/ocamlbuild",
-      "version": "opam:0.14.0",
-      "source": {
-        "type": "install",
-        "source": [
-          "archive:https://opam.ocaml.org/cache/sha256/87/87b29ce96958096c0a1a8eeafeb6268077b2d11e1bf2b3de0f5ebc9cf8d42e78#sha256:87b29ce96958096c0a1a8eeafeb6268077b2d11e1bf2b3de0f5ebc9cf8d42e78",
-          "archive:https://github.com/ocaml/ocamlbuild/archive/0.14.0.tar.gz#sha256:87b29ce96958096c0a1a8eeafeb6268077b2d11e1bf2b3de0f5ebc9cf8d42e78"
-        ],
-        "opam": {
-          "name": "ocamlbuild",
-          "version": "0.14.0",
-          "path": "esy.lock/opam/ocamlbuild.0.14.0"
-        }
-      },
-      "overrides": [
-        {
-          "opamoverride":
-            "esy.lock/overrides/opam__s__ocamlbuild_opam__c__0.14.0_opam_override"
-        }
-      ],
-      "dependencies": [
-        "ocaml@4.8.0@d41d8cd9", "@esy-ocaml/substs@0.0.1@d41d8cd9"
-      ],
-      "devDependencies": [ "ocaml@4.8.0@d41d8cd9" ]
-    },
-    "@opam/ocaml-lsp-server@github:ocaml/ocaml-lsp:ocaml-lsp-server.opam#cb8aba2238ba5b0e5a6fe0a3180f25077496f75a@d41d8cd9": {
+    "@opam/ocaml-lsp-server@github:ocaml/ocaml-lsp:ocaml-lsp-server.opam#89e8d36158b917e85ba3676ba6de1de4133c4ca8@d41d8cd9": {
       "id":
-        "@opam/ocaml-lsp-server@github:ocaml/ocaml-lsp:ocaml-lsp-server.opam#cb8aba2238ba5b0e5a6fe0a3180f25077496f75a@d41d8cd9",
+        "@opam/ocaml-lsp-server@github:ocaml/ocaml-lsp:ocaml-lsp-server.opam#89e8d36158b917e85ba3676ba6de1de4133c4ca8@d41d8cd9",
       "name": "@opam/ocaml-lsp-server",
       "version":
-        "github:ocaml/ocaml-lsp:ocaml-lsp-server.opam#cb8aba2238ba5b0e5a6fe0a3180f25077496f75a",
+        "github:ocaml/ocaml-lsp:ocaml-lsp-server.opam#89e8d36158b917e85ba3676ba6de1de4133c4ca8",
       "source": {
         "type": "install",
         "source": [
-          "github:ocaml/ocaml-lsp:ocaml-lsp-server.opam#cb8aba2238ba5b0e5a6fe0a3180f25077496f75a"
+          "github:ocaml/ocaml-lsp:ocaml-lsp-server.opam#89e8d36158b917e85ba3676ba6de1de4133c4ca8"
         ]
       },
       "overrides": [],
       "dependencies": [
         "ocaml@4.8.0@d41d8cd9", "@opam/yojson@opam:1.7.0@7056d985",
-        "@opam/stdlib-shims@opam:0.1.0@148f22ac",
+        "@opam/stdlib-shims@opam:0.3.0@0d088929",
         "@opam/result@opam:1.5@6b753c82",
         "@opam/ppx_yojson_conv_lib@opam:v0.14.0@116b53d6",
         "@opam/ocamlfind@opam:1.8.1@ff07b0f9",
@@ -475,7 +435,7 @@
       ],
       "devDependencies": [
         "ocaml@4.8.0@d41d8cd9", "@opam/yojson@opam:1.7.0@7056d985",
-        "@opam/stdlib-shims@opam:0.1.0@148f22ac",
+        "@opam/stdlib-shims@opam:0.3.0@0d088929",
         "@opam/result@opam:1.5@6b753c82",
         "@opam/ppx_yojson_conv_lib@opam:v0.14.0@116b53d6",
         "@opam/ocamlfind@opam:1.8.1@ff07b0f9",
@@ -1117,23 +1077,6 @@
         "@opam/merlin-extend@opam:0.6@404f814c",
         "@opam/menhir@opam:20201216@1a09d886",
         "@opam/fix@opam:20201120@5c318621", "@opam/dune@opam:2.7.0@000216e1"
-      ],
-      "devDependencies": []
-    },
-    "@esy-ocaml/flow-parser@0.36.1@d41d8cd9": {
-      "id": "@esy-ocaml/flow-parser@0.36.1@d41d8cd9",
-      "name": "@esy-ocaml/flow-parser",
-      "version": "0.36.1",
-      "source": {
-        "type": "install",
-        "source": [
-          "archive:https://registry.npmjs.org/@esy-ocaml/flow-parser/-/flow-parser-0.36.1.tgz#sha1:51336493f8e32da97cd3c518d0213a019354b5ad"
-        ]
-      },
-      "overrides": [],
-      "dependencies": [
-        "ocaml@4.8.0@d41d8cd9", "@opam/ocamlfind@opam:1.8.1@ff07b0f9",
-        "@opam/ocamlbuild@opam:0.14.0@6ac75d03"
       ],
       "devDependencies": []
     }
