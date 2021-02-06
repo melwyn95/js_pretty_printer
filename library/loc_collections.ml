@@ -5,8 +5,6 @@
  * LICENSE file in the root directory of this source tree.
  *)
 
-open FlowParser
-
 module LocSet = Loc_sig.LocS.LSet
 module LocMap = Loc_sig.LocS.LMap
 module ALocSet = Loc_sig.ALocS.LSet
