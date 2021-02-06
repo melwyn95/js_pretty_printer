@@ -2,5 +2,9 @@ Ast_builder
 JsPrettyPrinterLibrary
 Js_layout_generator
 Layout
+Loc_collections
+Loc_sig
 Pretty_printer
 Source
+WrappedMap
+WrappedMap_sig

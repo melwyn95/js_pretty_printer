@@ -10,6 +10,12 @@ module Layout = JsPrettyPrinterLibrary__Layout
 (** @canonical JsPrettyPrinterLibrary.Layout_generator_test_utils *)
 module Layout_generator_test_utils = JsPrettyPrinterLibrary__Layout_generator_test_utils
 
+(** @canonical JsPrettyPrinterLibrary.Loc_collections *)
+module Loc_collections = JsPrettyPrinterLibrary__Loc_collections
+
+(** @canonical JsPrettyPrinterLibrary.Loc_sig *)
+module Loc_sig = JsPrettyPrinterLibrary__Loc_sig
+
 (** @canonical JsPrettyPrinterLibrary.Pretty_printer *)
 module Pretty_printer = JsPrettyPrinterLibrary__Pretty_printer
 
@@ -18,3 +24,9 @@ module Source = JsPrettyPrinterLibrary__Source
 
 (** @canonical JsPrettyPrinterLibrary.Util *)
 module Util = JsPrettyPrinterLibrary__Util
+
+(** @canonical JsPrettyPrinterLibrary.WrappedMap *)
+module WrappedMap = JsPrettyPrinterLibrary__WrappedMap
+
+(** @canonical JsPrettyPrinterLibrary.WrappedMap_sig *)
+module WrappedMap_sig = JsPrettyPrinterLibrary__WrappedMap_sig

@@ -5,6 +5,8 @@
  * LICENSE file in the root directory of this source tree.
  *)
 
+open FlowParser
+
 module Ast = Flow_ast
 open Layout
 
