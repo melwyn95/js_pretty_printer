@@ -23,7 +23,9 @@
         "Console = require('@reason-native/console/lib')",
         "Base = require('@opam/base')",
         "Dtoa = require('@opam/dtoa')",
-        "Lwt = require('@opam/lwt')"
+        "Lwt = require('@opam/lwt')",
+        "Str = require('str')",
+        "Unix = require('unix')"
       ],
       "preprocess": [
         "pps",
@@ -33,7 +35,8 @@
     },
     "bin": {
       "imports": [
-        "Library = require('js-pretty-printer/library')"
+        "Library = require('js-pretty-printer/library')",
+        "Console = require('@reason-native/console/lib')"
       ],
       "bin": {
         "JsPrettyPrinterApp": "JsPrettyPrinterApp.re"

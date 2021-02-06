@@ -1,3 +1,7 @@
-print_endline("Running Test Program:");
-let () = print_endline(Library.Util.hello());
-let _ = Library.Util.parse();
+
+Console.log(Library.Util.pretty_print("  var     x     =     1 ;
+    do {
+        console.log('done')
+    } while(false)
+
+"));

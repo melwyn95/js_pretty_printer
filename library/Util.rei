@@ -1,3 +1,2 @@
-let hello: unit => string;
 
-let parse: unit => unit;
+let pretty_print: string => string;
