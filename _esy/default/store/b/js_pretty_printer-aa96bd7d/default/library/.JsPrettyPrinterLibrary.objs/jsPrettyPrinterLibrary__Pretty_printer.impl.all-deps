@@ -3,5 +3,7 @@ Layout
 Loc_collections
 Loc_sig
 Source
+Sourcemap
+Vlq
 WrappedMap
 WrappedMap_sig

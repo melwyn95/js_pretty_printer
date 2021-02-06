@@ -19,8 +19,14 @@ module Pretty_printer = JsPrettyPrinterLibrary__Pretty_printer
 (** @canonical JsPrettyPrinterLibrary.Source *)
 module Source = JsPrettyPrinterLibrary__Source
 
+(** @canonical JsPrettyPrinterLibrary.Sourcemap *)
+module Sourcemap = JsPrettyPrinterLibrary__Sourcemap
+
 (** @canonical JsPrettyPrinterLibrary.Util *)
 module Util = JsPrettyPrinterLibrary__Util
+
+(** @canonical JsPrettyPrinterLibrary.Vlq *)
+module Vlq = JsPrettyPrinterLibrary__Vlq
 
 (** @canonical JsPrettyPrinterLibrary.WrappedMap *)
 module WrappedMap = JsPrettyPrinterLibrary__WrappedMap

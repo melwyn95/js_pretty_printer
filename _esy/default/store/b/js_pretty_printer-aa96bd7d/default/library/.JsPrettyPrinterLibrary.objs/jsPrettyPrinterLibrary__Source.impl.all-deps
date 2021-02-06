@@ -1,5 +1,7 @@
 JsPrettyPrinterLibrary
 Loc_collections
 Loc_sig
+Sourcemap
+Vlq
 WrappedMap
 WrappedMap_sig
