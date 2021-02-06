@@ -90,21 +90,32 @@ function blacklistCheck(locator) {
 }
 
 let packageInformationStores = new Map([
-["@esy-ocaml/reason",
-new Map([["3.6.2",
+["@esy-ocaml/flow-parser",
+new Map([["0.36.1",
          {
-           packageLocation: "/Users/melwyns/.esy/source/i/esy_ocaml__s__reason__3.6.2__60f688e6/",
-           packageDependencies: new Map([["@esy-ocaml/reason", "3.6.2"],
-                                           ["@opam/dune", "opam:2.7.0"],
-                                           ["@opam/fix", "opam:20201120"],
-                                           ["@opam/menhir", "opam:20201216"],
-                                           ["@opam/merlin-extend",
-                                           "opam:0.6"],
+           packageLocation: "/Users/melwyns/.esy/source/i/esy_ocaml__s__flow_parser__0.36.1__57fbb325/",
+           packageDependencies: new Map([["@esy-ocaml/flow-parser", "0.36.1"],
+                                           ["@opam/ocamlbuild",
+                                           "opam:0.14.0"],
                                            ["@opam/ocamlfind", "opam:1.8.1"],
-                                           ["@opam/ppx_derivers",
-                                           "opam:1.2.1"],
-                                           ["@opam/result", "opam:1.5"],
                                            ["ocaml", "4.8.0"]])}]])],
+  ["@esy-ocaml/reason",
+  new Map([["3.6.2",
+           {
+             packageLocation: "/Users/melwyns/.esy/source/i/esy_ocaml__s__reason__3.6.2__60f688e6/",
+             packageDependencies: new Map([["@esy-ocaml/reason", "3.6.2"],
+                                             ["@opam/dune", "opam:2.7.0"],
+                                             ["@opam/fix", "opam:20201120"],
+                                             ["@opam/menhir",
+                                             "opam:20201216"],
+                                             ["@opam/merlin-extend",
+                                             "opam:0.6"],
+                                             ["@opam/ocamlfind",
+                                             "opam:1.8.1"],
+                                             ["@opam/ppx_derivers",
+                                             "opam:1.2.1"],
+                                             ["@opam/result", "opam:1.5"],
+                                             ["ocaml", "4.8.0"]])}]])],
   ["@esy-ocaml/substs",
   new Map([["0.0.1",
            {
@@ -361,6 +372,14 @@ new Map([["3.6.2",
                                              "opam:0.3.0"],
                                              ["@opam/yojson", "opam:1.7.0"],
                                              ["ocaml", "4.8.0"]])}]])],
+  ["@opam/ocamlbuild",
+  new Map([["opam:0.14.0",
+           {
+             packageLocation: "/Users/melwyns/.esy/source/i/opam__s__ocamlbuild__opam__c__0.14.0__aff6a0b0/",
+             packageDependencies: new Map([["@esy-ocaml/substs", "0.0.1"],
+                                             ["@opam/ocamlbuild",
+                                             "opam:0.14.0"],
+                                             ["ocaml", "4.8.0"]])}]])],
   ["@opam/ocamlfind",
   new Map([["opam:1.8.1",
            {
@@ -534,7 +553,10 @@ new Map([["3.6.2",
   new Map([[null,
            {
              packageLocation: "/Users/melwyns/oss/js_pretty_printer/",
-             packageDependencies: new Map([["@esy-ocaml/reason", "3.6.2"],
+             packageDependencies: new Map([["@esy-ocaml/flow-parser",
+                                           "0.36.1"],
+                                             ["@esy-ocaml/reason", "3.6.2"],
+                                             ["@opam/base", "opam:v0.14.1"],
                                              ["@opam/dune", "opam:2.7.0"],
                                              ["@opam/merlin", "opam:3.4.2"],
                                              ["@opam/ocaml-lsp-server",
@@ -552,6 +574,10 @@ let locatorsByLocations = new Map([
   {
     name: "esy-m4",
     reference: "github:esy-packages/esy-m4#c7cf0ac9221be2b1f9d90e83559ca08397a629e7"}],
+  ["../../../../.esy/source/i/esy_ocaml__s__flow_parser__0.36.1__57fbb325/",
+  {
+    name: "@esy-ocaml/flow-parser",
+    reference: "0.36.1"}],
   ["../../../../.esy/source/i/esy_ocaml__s__reason__3.6.2__60f688e6/",
   {
     name: "@esy-ocaml/reason",
@@ -660,6 +686,10 @@ let locatorsByLocations = new Map([
   {
     name: "@opam/ocaml-lsp-server",
     reference: "github:ocaml/ocaml-lsp:ocaml-lsp-server.opam#89e8d36158b917e85ba3676ba6de1de4133c4ca8"}],
+  ["../../../../.esy/source/i/opam__s__ocamlbuild__opam__c__0.14.0__aff6a0b0/",
+  {
+    name: "@opam/ocamlbuild",
+    reference: "opam:0.14.0"}],
   ["../../../../.esy/source/i/opam__s__ocamlfind__opam__c__1.8.1__0bdaf9d3/",
   {
     name: "@opam/ocamlfind",

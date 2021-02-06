@@ -34,6 +34,8 @@
     "/Users/melwyns/.esy/source/i/opam__s__parsexp__opam__c__v0.14.0__8a2d7638",
   "@opam/ocamlfind@opam:1.8.1@ff07b0f9":
     "/Users/melwyns/.esy/source/i/opam__s__ocamlfind__opam__c__1.8.1__0bdaf9d3",
+  "@opam/ocamlbuild@opam:0.14.0@6ac75d03":
+    "/Users/melwyns/.esy/source/i/opam__s__ocamlbuild__opam__c__0.14.0__aff6a0b0",
   "@opam/ocaml-lsp-server@github:ocaml/ocaml-lsp:ocaml-lsp-server.opam#89e8d36158b917e85ba3676ba6de1de4133c4ca8@d41d8cd9":
     "/Users/melwyns/.esy/source/i/opam__s__ocaml_lsp_server__d624fa8f",
   "@opam/num@opam:1.4@a5195c8d":
@@ -85,5 +87,7 @@
   "@esy-ocaml/substs@0.0.1@d41d8cd9":
     "/Users/melwyns/.esy/source/i/esy_ocaml__s__substs__0.0.1__19de1ee1",
   "@esy-ocaml/reason@3.6.2@d41d8cd9":
-    "/Users/melwyns/.esy/source/i/esy_ocaml__s__reason__3.6.2__60f688e6"
+    "/Users/melwyns/.esy/source/i/esy_ocaml__s__reason__3.6.2__60f688e6",
+  "@esy-ocaml/flow-parser@0.36.1@d41d8cd9":
+    "/Users/melwyns/.esy/source/i/esy_ocaml__s__flow_parser__0.36.1__57fbb325"
 }
