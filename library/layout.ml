@@ -5,6 +5,8 @@
  * LICENSE file in the root directory of this source tree.
  *)
 
+ open FlowParser
+
 type layout_node =
   (* A layout with location information *)
   | SourceLocation of Loc.t * layout_node

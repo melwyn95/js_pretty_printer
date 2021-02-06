@@ -5,6 +5,8 @@
  * LICENSE file in the root directory of this source tree.
  *)
 
+ open FlowParser
+
 module type S = sig
   type t [@@deriving show]
 

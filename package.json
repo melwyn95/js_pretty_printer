@@ -21,7 +21,14 @@
       "imports": [
         "FlowParser = require('@esy-ocaml/flow-parser')",
         "Console = require('@reason-native/console/lib')",
-        "Base = require('@opam/base')"
+        "Base = require('@opam/base')",
+        "Dtoa = require('@opam/dtoa')",
+        "Lwt = require('@opam/lwt')"
+      ],
+      "preprocess": [
+        "pps",
+        "lwt_ppx",
+        "ppx_deriving.std"
       ]
     },
     "bin": {
@@ -40,10 +47,13 @@
     "@opam/dune": "2.7.0",
     "@esy-ocaml/reason": "*",
     "@pesy/esy-pesy": "0.1.0-alpha.13",
-    "ocaml": "4.8.0",
+    "ocaml": "4.10.2000",
     "@reason-native/console": "^0.1.0",
     "@esy-ocaml/flow-parser": "*",
-    "@opam/base": "*"
+    "@opam/base": "*",
+    "@opam/dtoa": "*",
+    "@opam/lwt": "*",
+    "@opam/lwt_ppx": "*"
   },
   "devDependencies": {
     "@opam/merlin": "*",
@@ -52,6 +62,6 @@
   },
   "resolutions": {
     "@pesy/esy-pesy": "link:/Users/melwyns/oss/pesy",
-    "@opam/ocaml-migrate-parsetree": "1.8.0"
+    "@esy-ocaml/flow-parser": "link:/Users/melwyns/oss/flow-parser"
   }
 }

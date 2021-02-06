@@ -1,6 +1,0 @@
-# esy-build-package: building: esy-flow@link:/Users/melwyns/oss/esy-flow
-# esy-build-package: pwd: /Users/melwyns/oss/esy-flow
-# esy-build-package: running: 'dune' 'build' '-p' 'flowtype'
-# esy-build-package: installing using built-in installer
-# esy-build-package: rewriting prefix: /Users/melwyns/oss/js_pretty_printer/_esy/default/store/s/esy_flow-6a4e157f -> /Users/melwyns/oss/js_pretty_printer/_esy/default/store/i/esy_flow-6a4e157f
-# esy-build-package: committing: /Users/melwyns/oss/js_pretty_printer/_esy/default/store/s/esy_flow-6a4e157f -> /Users/melwyns/oss/js_pretty_printer/_esy/default/store/i/esy_flow-6a4e157f

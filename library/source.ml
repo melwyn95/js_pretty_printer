@@ -5,6 +5,8 @@
  * LICENSE file in the root directory of this source tree.
  *)
 
+open FlowParser
+
 module LocMap = Loc_collections.LocMap
 
 type t = {

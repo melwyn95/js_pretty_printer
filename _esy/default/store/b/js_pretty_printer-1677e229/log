@@ -1,5 +1,0 @@
-# dune ocaml-merlin --no-print-directory
-# OCAMLPARAM: unset
-# Workspace root: /Users/melwyns/oss/js_pretty_printer
-$ /usr/local/bin/nproc > /var/folders/s0/7dmr5cpx5gb5dvg19qs2h_zr0000gn/T/dune890a33.output 2> /dev/null
-# Auto-detected concurrency: 8
