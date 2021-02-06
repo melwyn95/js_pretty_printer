@@ -1,10 +1,10 @@
-
-/* Console.log(Library.Util.pretty_print("  var     x     =     1 ;
+Console.log("\n");
+Console.log(Library.Util.pretty_print("  var     x     =     1 ;
     do {
         console.log('done')
     } while(false)
 
-")); */
+"));
 
 let getLinesFromFile = path => {
     let ic = open_in(path);
@@ -25,5 +25,5 @@ let jsCodeFromFile = getLinesFromFile("./bin/un_formatted_code.js");
 
 let pretty_printer = Library.Util.pretty_print;
 
-Console.log();
+Console.log("\n");
 Console.log(pretty_printer(jsCodeFromFile));
