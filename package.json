@@ -64,7 +64,6 @@
     "refmterr": "*"
   },
   "resolutions": {
-    "@pesy/esy-pesy": "link:/Users/melwyns/oss/pesy",
-    "@esy-ocaml/flow-parser": "link:/Users/melwyns/oss/flow-parser"
+    "@esy-ocaml/flow-parser": "ReasonIndia/flow-parser#133a96bca69670625d83b153356f093aa94a7939"
   }
 }

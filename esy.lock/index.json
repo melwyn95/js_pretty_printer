@@ -1,5 +1,5 @@
 {
-  "checksum": "3f272d0f1b2800b67c5ee79d9ac40d5b",
+  "checksum": "feff703338a4bd5fed4aba7e87d5d928",
   "root": "js-pretty-printer@link-dev:./package.json",
   "node": {
     "refmterr@3.3.2@d41d8cd9": {
@@ -48,12 +48,12 @@
       "overrides": [],
       "dependencies": [
         "ocaml@4.10.2000@d41d8cd9", "@reason-native/console@0.1.0@d41d8cd9",
-        "@pesy/esy-pesy@link:/Users/melwyns/oss/pesy",
+        "@pesy/esy-pesy@0.1.0-alpha.13@d41d8cd9",
         "@opam/lwt_ppx@opam:2.0.1@e6a764a0", "@opam/lwt@opam:5.4.0@1ec6dbfd",
         "@opam/dune@opam:2.7.0@000216e1", "@opam/dtoa@opam:0.3.2@4755c768",
         "@opam/base@opam:v0.14.1@d14008e2",
         "@esy-ocaml/reason@3.6.2@d41d8cd9",
-        "@esy-ocaml/flow-parser@link:/Users/melwyns/oss/flow-parser"
+        "@esy-ocaml/flow-parser@github:ReasonIndia/flow-parser#133a96bca69670625d83b153356f093aa94a7939@d41d8cd9"
       ],
       "devDependencies": [
         "refmterr@3.3.2@d41d8cd9",
@@ -111,11 +111,16 @@
       ],
       "devDependencies": []
     },
-    "@pesy/esy-pesy@link:/Users/melwyns/oss/pesy": {
-      "id": "@pesy/esy-pesy@link:/Users/melwyns/oss/pesy",
+    "@pesy/esy-pesy@0.1.0-alpha.13@d41d8cd9": {
+      "id": "@pesy/esy-pesy@0.1.0-alpha.13@d41d8cd9",
       "name": "@pesy/esy-pesy",
-      "version": "link:/Users/melwyns/oss/pesy",
-      "source": { "type": "link", "path": "/Users/melwyns/oss/pesy" },
+      "version": "0.1.0-alpha.13",
+      "source": {
+        "type": "install",
+        "source": [
+          "archive:https://registry.npmjs.org/@pesy/esy-pesy/-/esy-pesy-0.1.0-alpha.13.tgz#sha1:c3f9e1ee0261d93e5bac3aefd277918ebbe530bb"
+        ]
+      },
       "overrides": [],
       "dependencies": [
         "ocaml@4.10.2000@d41d8cd9", "@reason-native/pastel@0.3.0@d41d8cd9",
@@ -126,9 +131,7 @@
         "@opam/cmdliner@opam:1.0.4@93208aac",
         "@esy-ocaml/reason@3.6.2@d41d8cd9"
       ],
-      "devDependencies": [
-        "ocaml@4.10.2000@d41d8cd9", "@opam/dune@opam:2.7.0@000216e1"
-      ]
+      "devDependencies": []
     },
     "@opam/yojson@opam:1.7.0@7056d985": {
       "id": "@opam/yojson@opam:1.7.0@7056d985",
@@ -1560,11 +1563,18 @@
       ],
       "devDependencies": []
     },
-    "@esy-ocaml/flow-parser@link:/Users/melwyns/oss/flow-parser": {
-      "id": "@esy-ocaml/flow-parser@link:/Users/melwyns/oss/flow-parser",
+    "@esy-ocaml/flow-parser@github:ReasonIndia/flow-parser#133a96bca69670625d83b153356f093aa94a7939@d41d8cd9": {
+      "id":
+        "@esy-ocaml/flow-parser@github:ReasonIndia/flow-parser#133a96bca69670625d83b153356f093aa94a7939@d41d8cd9",
       "name": "@esy-ocaml/flow-parser",
-      "version": "link:/Users/melwyns/oss/flow-parser",
-      "source": { "type": "link", "path": "/Users/melwyns/oss/flow-parser" },
+      "version":
+        "github:ReasonIndia/flow-parser#133a96bca69670625d83b153356f093aa94a7939",
+      "source": {
+        "type": "install",
+        "source": [
+          "github:ReasonIndia/flow-parser#133a96bca69670625d83b153356f093aa94a7939"
+        ]
+      },
       "overrides": [],
       "dependencies": [
         "ocaml@4.10.2000@d41d8cd9", "@opam/wtf8@opam:1.0.2@23c2982b",
